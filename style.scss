@@ -1,0 +1,15 @@
+$br-primary-color: white;
+$primary-color:#9356dc;
+$secondary-color:#ff79da;
+$tertiary-color:#99e2d0;
+
+$font-family: "Shrikhand", "Roboto", sans-serif;
+
+body{
+    box-sizing: border-box;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
