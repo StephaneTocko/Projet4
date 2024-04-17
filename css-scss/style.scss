@@ -4,12 +4,17 @@ $secondary-color:#ff79da;
 $tertiary-color:#99e2d0;
 
 $font-family: "Shrikhand", "Roboto", sans-serif;
+html{
+    max-width: 375px;
+}
 
 body{
     box-sizing: border-box;
+    background-color: #99e2d0;
 }
 h1{
     display: flex;
-    justify-content: center;
-    color: red;
+    justify-content: space-between;
+    
+   
 }
