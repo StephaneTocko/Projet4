@@ -5,99 +5,113 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700italic,400italic,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        <link rel="stylesheet" href="./css-scss/style.css">
-        <title>ohmyfood</title>
+        <link rel="stylesheet" href="./css-scss/menus.scss">
+        <title>Le délice des sens</title>
     </head>
     
     <body>
         <header> 
             <img src="images et textes OMF/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
         </header>
+        <div class="image">
+            <img src="images et textes OMF/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="assiette contenant du poisson sur une table">
+        </div>
         
         <section>
-            <img src="images et textes OMF/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg" alt="assiette contenant du poisson sur une table">
-            <div>
+           
+            <div class="titre">
                 <h1>Le délice des sens</h1>
                 <i class="fa-regular fa-heart"></i>
             </div>
             <article> 
                 <h2>Entrée</h2>
-                <div>
-                    <div>
-                        <p>Tartare de thon</p>
+                <div class="plat">
+                    <h3>Tartare de thon</h3>
+                    <div class="suite-prix">
                         <p>Assaisonné au yuzu</p>
+                        <span>25€</span>
                     </div>
-                    <span>25€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Bouchée de homard croustillant</p>
+                <div class="plat">
+                    <h3>Bouchée de homard croustillant</h3>
+                    <div class="suite-prix">
                         <p>Et sa farandole de petits légumes</p>
+                        <span>35€</span>
                     </div>
-                    <span>35€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Poulet rôti aux herbes de Provence</p>
+                <div class="plat">
+                    <h3>Poulet rôti aux herbes de Provence</h3>
+                    <div class="suite-prix">
                         <p>Et sa crème de truffe</p>
+                        <span>40€</span>
                     </div>
-                    <span>40€</span>
+                    
                 </div>
 
             </article>
 
             <article>
                 <h2>Plats</h2>
-                <div>
-                    <div>
-                        <p>Langouste rôtie</p>
+                <div class="plat">
+                    <h3>Langouste rôtie</h3>
+                    <div class="suite-prix">
                         <p>Et ses légumes de saison</p>
+                        <span>35€</span>
                     </div>
-                    <span>35€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Côte de boeuf Angus</p>
+                <div class="plat">
+                    <h3>Côte de boeuf Angus</h3>
+                    <div class="suite-prix">
                         <p>Et sa purée de panais</p>
+                        <span>44€</span>
                     </div>
-                    <span>44€</span>
+                    
                 </div>
             </article>
             <article>
                 <h2>Désserts</h2>
-                <div>
-                    <div>
-                        <p>Farandole de desserts</p>
+                <div class="plat">
+                    <h3>Farandole de desserts</h3>
+                    <div class="suite-prix">
                         <p>Du chef</p>
+                        <span>18€</span>
                     </div>
-                    <span>18€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Crème brulée</p>
+                <div class="plat">
+                    <h3>Crème brulée</h3>
+                    <div class="suite-prix">
                         <p>Revisitée</p>
+                        <span>22€</span>
                     </div>
-                    <span>22€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Tiramisu</p>
+                <div class="plat">
+                    <h3>Tiramisu</h3>
+                    <div class="suite-prix">
                         <p>À la noisette</p>
+                        <span>23€</span>
                     </div>
-                    <span>23€</span>
+                    
                 </div>
             </article>
-            <button>Commander</button>
+            <button class="btn">Commander</button>
 
         </section>
 
         <footer>
         
-            <img src="images et textes OMF/images/logo/ohmyfood_little.png" alt="logo du site">
+            <div>
+                <img src="images et textes OMF/images/logo/ohmyfood_little.png" alt="logo du site">
+            </div>
             <div>
                 <i class="fa-solid fa-utensils"></i>
                 <p>Proposer un restaurant</p>

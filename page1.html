@@ -5,106 +5,127 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700italic,400italic,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        <link rel="stylesheet" href="./css-scss/style.css">
-        <title>ohmyfood</title>
+        <link rel="stylesheet" href="./css-scss/menus.scss">
+        <title>La palette du goût</title>
     </head>
     
     <body>
         <header> 
             <img src="images et textes OMF/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
         </header>
-        
-        <section>
+        <div class="image">
             <img src="images et textes OMF/images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" alt="assiette sur une table et une main">
-            <div>
+        </div>
+
+        <section>
+            <div class="titre">
                 <h1>La palette du goût</h1>
                 <i class="fa-regular fa-heart"></i>
             </div>
+
             <article> 
                 <h2>Entrées</h2>
-                <div>
-                    <div>
-                        <p>Fricassée d'escargots</p>
+
+                <div class="plat">
+                    <h3>Fricassée d'escargots</h3>
+                    <div class="suite-prix">
                         <p>Au piment d'Espelette</p>
+                        <span>25€</span>
                     </div>
-                    <span>25€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Foie gras de canard mi-cuit</p>
+                <div class="plat">
+                    <h3>Foie gras de canard mi-cuit</h3>
+                    <div class="suite-prix">
                         <p>Et ses copeaux de truffe noire</p>
+                        <span>35€</span>
                     </div>
-                    <span>35€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Œuf au plat</p>
+                <div class="plat">
+                    <h3>Œuf au plat</h3>
+                    <div class="suite-prix">
                         <p>Assaisonné à la truffe sur lit caviar</p>
+                        <span>20€</span>
                     </div>
-                    <span>20€</span>
+                    
                 </div>
 
             </article>
 
             <article>
                 <h2>Plats</h2>
-                <div>
-                    <div>
-                        <p>Filet de bœuf aux herbes</p>
+
+                <div class="plat">
+                    <h3>Filet de bœuf aux herbes</h3>
+                    <div class="suite-prix">
                         <p>Accompagné de sa ribambelle de légumes</p>
+                        <span>40€</span>
                     </div>
-                    <span>40€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Parmentier de queue de bœuf</p>
+
+                <div class="plat">
+                    <h3>Parmentier de queue de bœuf</h3>
+                    <div class="suite-prix">
                         <p>À la truffe noire sur sa purée de panais</p>
+                        <span>35€</span>
                     </div>
-                    <span>35€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Filet de turbot</p>
+
+                <div class="plat">
+                    <h3>Filet de turbot</h3>
+                    <div class="suite-prix">
                         <p>Aux argrumes</p>
+                        <span>44€</span>
                     </div>
-                    <span>44€</span>
                 </div>
+
             </article>
+
             <article>
                 <h2>Desserts</h2>
-                <div>
-                    <div>
-                        <p>Paris-Brest</p>
+
+                <div class="plat">
+                    <h3>Paris-Brest</h3>
+                    <div class="suite-prix">
                         <p>Revisité</p>
+                        <span>18€</span>
                     </div>
-                    <span>18€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Macaron au chocolat d'exception</p>
+
+                <div class="plat">
+                    <h3>Macaron au chocolat d'exception</h3>
+                    <div class="suite-prix">
                         <p>Et glace à la vanille de Madagascar</p>
+                        <span>22€</span>
                     </div>
-                    <span>22€</span>
+                    
                 </div>
-                <div>
-                    <div>
-                        <p>Mousse au chocolat</p>
+
+                <div class="plat">
+                    <h3>Mousse au chocolat</h3>
+                    <div class="suite-prix">
                         <p>Au piment d'Espelette et à la truffe noire</p>
+                        <span>23€</span>
                     </div>
-                    <span>23€</span>
                 </div>
+
             </article>
-            <button>Commander</button>
+
+            <button class="btn">Commander</button>
 
         </section>
 
         <footer>
+            <div>
+                <img src="images et textes OMF/images/logo/ohmyfood_little.png" alt="logo du site">
+            </div>
             
-            <img src="images et textes OMF/images/logo/ohmyfood_little.png" alt="logo du site">
             <div>
                 <i class="fa-solid fa-utensils"></i>
                 <p>Proposer un restaurant</p>
@@ -120,3 +141,4 @@
     </body>
     
 </html>
+

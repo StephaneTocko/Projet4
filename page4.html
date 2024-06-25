@@ -5,107 +5,128 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto:400,700italic,400italic,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-        <link rel="stylesheet" href="./css-scss/style.css">
-        <title>ohmyfood</title>
+        <link rel="stylesheet" href="./css-scss/menus.scss">
+        <title>À la française</title>
     </head>
     
     <body>
         <header> 
             <img src="images et textes OMF/images/logo/ohmyfood@2x.svg" alt="logo ohmyfood">
         </header>
+        <div class="image">
+            <img src="images et textes OMF/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
+        </div>
         
         <section>
-            <img src="images et textes OMF/images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" alt="">
-            <div>
+            
+            <div class="titre">
                 <h1>À la française</h1>
                 <i class="fa-regular fa-heart"></i>
             </div>
+
             <article> 
+
                 <h2>Entrées</h2>
-                <div>
-                    <div>
-                        <p>Tartare de poulpe acidulé</p>
+
+                <div class="plat">
+                    <h3>Tartare de poulpe acidulé</h3>
+                    <div class="suite-prix">
                         <p>Aux zestes d'orange</p>
+                        <span>25€</span>
                     </div>
-                    <span>25€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Velouté de légumes d'antan</p>
+
+                <div class="plat">
+                    <h3>Velouté de légumes d'antan</h3>
+                    <div class="suite-prix">
                         <p>Carotte, panais, topinambour</p>
+                        <span>35€</span>
                     </div>
-                    <span>35€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Soupe à l'oignon</p>
+
+                <div class="plat"> 
+                    <h3>Soupe à l'oignon</h3>
+                    <div class="suite-prix">
                         <p>Revisitée</p>
+                        <span>20€</span>
                     </div>
-                    <span>20€</span>
                 </div>
 
             </article>
 
             <article>
                 <h2>Plats</h2>
-                <div>
-                    <div>
-                        <p>Coquilles Saint-Jacques</p>
+
+                <div class="plat">
+                    <p>Coquilles Saint-Jacques</p>
+                    <div class="suite-prix">
                         <p>Accompagné d'une purée de panais</p>
+                        <span>40€</span>
                     </div>
-                    <span>40€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Magret de canard</p>
+
+                <div class="plat">
+                     <h3>Magret de canard</h3>
+                    <div class="suite-prix">
                         <p>Et parmentier de pommes de terre</p>
+                         <span>35€</span>
                     </div>
-                    <span>35€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Pigeonneau d'Ille-et-Vilaine</p>
+
+                <div class="plat">
+                    <h3>Pigeonneau d'Ille-et-Vilaine</h3>
+                    <div class="suite-prix">
                         <p>Sur son lit de gnocchis aux légumes</p>
+                        <span>44€</span>
                     </div>
-                    <span>44€</span>
                 </div>
+
             </article>
+
             <article>
                 <h2>Desserts</h2>
-                <div>
-                    <div>
-                        <p>Pétales de violettes glacés</p>
+
+                <div class="plat">
+                    <h3>Pétales de violettes glacés</h3>
+                    <div class="suite-prix">
                         <p>Et puréé de noisettes</p>
+                        <span>18€</span>
                     </div>
-                    <span>18€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Fondant au chocolat</p>
+
+                <div class="plat">
+                    <h3>Fondant au chocolat</h3>
+                    <div class="suite-prix">
                         <p>Revisité</p>
+                        <span>22€</span>
                     </div>
-                    <span>22€</span>
                 </div>
-                <div>
-                    <div>
-                        <p>Millefeuille croustillant</p>
+
+                <div class="plat">
+                    <h3>Millefeuille croustillant</h3>
+                    <div class="suite-prix">
                         <p>Myrtilles et pâte d’amande</p>
+                        <span>23€</span>
                     </div>
-                    <span>23€</span>
                 </div>
+
             </article>
-            <button>Commander</button>
+
+            <button class="btn">Commander</button>
 
         
         </section>
 
         <footer>
-          
-            <img src="images et textes OMF/images/logo/ohmyfood_little.png" alt="logo du site">
+            <div>
+                <img src="images et textes OMF/images/logo/ohmyfood_little.png" alt="logo du site">
+            </div>
+           
             <div>
                 <i class="fa-solid fa-utensils"></i>
                 <p>Proposer un restaurant</p>
